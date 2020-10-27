@@ -1,17 +1,19 @@
-html,
-body {
-  min-height: 100%;
-}
-
 main {
   width: 90%;
   max-width: 1280px;
-  margin: 0 auto;
-  position: relative;
+  margin: 10vh auto 0 auto;
 }
 
 .card-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1em;
+
+  margin: 2em auto;
+}
+
+.card-list .btn {
+  width: 80%;
+  align-self: center;
+  margin: 1em;
 }
